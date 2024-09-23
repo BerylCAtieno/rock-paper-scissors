@@ -1,0 +1,58 @@
+.game-interface-container {
+    background-color: #231f20;
+    max-width: 550px;
+    height: 500px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.game-header {
+    display:flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    margin: 8px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.game-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.game-title span {
+    color: #eaeaea;
+    font-weight: 700;
+}
+
+.score {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    border-radius: 10px;
+}
+
+
+.score-title, .actual-score {
+    color: black;
+    font-size: 11px;
+    font-weight: 600;
+    color: #eaeaea;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-score, .computer-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}

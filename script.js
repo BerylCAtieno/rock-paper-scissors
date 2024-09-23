@@ -1,4 +1,4 @@
-function playGame() {
+/* function playGame() {
     let humanScore = 0;
     let computerScore = 0;
     const rounds = 5;
@@ -59,4 +59,4 @@ function playGame() {
     }
 }
 
-playGame()
+*/
