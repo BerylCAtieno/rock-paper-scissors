@@ -1,3 +1,8 @@
+let playerScore = document.getElementById("player-score");
+let computerScore = document.getElementById("computer-score");
+
+console.log(playerScore)
+console.log(computerScore)
 /* function playGame() {
     let humanScore = 0;
     let computerScore = 0;
