@@ -1,10 +1,9 @@
 let playerScore = document.getElementById("player-score");
 let computerScore = document.getElementById("computer-score");
 
-console.log(playerScore)
-console.log(computerScore)
-/* function playGame() {
-    let humanScore = 0;
+
+function playGame() {
+    let playerScore = 0;
     let computerScore = 0;
     const rounds = 5;
 
@@ -46,22 +45,20 @@ console.log(computerScore)
 
         const result = playRound(humanSelection, computerSelection);
         if (result === "win") {
-            humanScore++;
+            playerScore++;
         } else if (result === "lose") {
             computerScore++;
         }
 
-        console.log(`Round ${i + 1}: Human Score: ${humanScore}, Computer Score: ${computerScore}`);
+        console.log(`Round ${i + 1}: Human Score: ${playerScore}, Computer Score: ${computerScore}`);
     }
 
     
-    if (humanScore > computerScore) {
-        console.log(`You win the game! Final Score - You: ${humanScore}, Computer: ${computerScore}`);
-    } else if (computerScore > humanScore) {
-        console.log(`You lose the game! Final Score - You: ${humanScore}, Computer: ${computerScore}`);
+    if (playerScore > computerScore) {
+        console.log(`You win the game! Final Score - You: ${playerScore}, Computer: ${computerScore}`);
+    } else if (computerScore > playerScore) {
+        console.log(`You lose the game! Final Score - You: ${playerScore}, Computer: ${computerScore}`);
     } else {
-        console.log(`The game is a draw! Final Score - You: ${humanScore}, Computer: ${computerScore}`);
+        console.log(`The game is a draw! Final Score - You: ${playerScore}, Computer: ${computerScore}`);
     }
 }
-
-*/
